@@ -13,13 +13,12 @@ try:
 except:
     from PIL import Image, ImageDraw, ImageFont
 
-app_key = "1211807749"#"2864157873"
-app_secret = "04871b4d202a401937386465c0325cc4"#"94024d7c968a75f4ea01e4d103a06f9a"
+app_key = ""
+app_secret = ""
 redirect_uri = "https://api.weibo.com/oauth2/default.html"
 
-ACCOUNT = "ashinminisnake@gmail.com"
-#ACCOUNT = "416170497@qq.com"
-PASSWORD = "230298603777"
+ACCOUNT = ""
+PASSWORD = ""
 
 def auth():
     url = "https://api.weibo.com/oauth2/authorize"
