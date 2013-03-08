@@ -1,0 +1,6 @@
+name: cuitclock
+version: 1
+cron:
+- url: /start_clock_ashin_admin_xxx/
+  schedule: every 1 hour, offset 0
+
