@@ -7,7 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'cuitclock.clock.views.home', name='home'),
-    url(r'^start_clock_ashin_admin_xxx/$', 'cuitclock.clock.views.start', name='start'),
+    url(r'^start/$', 'cuitclock.clock.views.start', name='start'),
     # url(r'^cuit/', include('cuit.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
